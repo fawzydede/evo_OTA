@@ -7,10 +7,10 @@
       "device": "",
       "filename": "EvolutionX-16.0-20260128-fogos-11.6-Unofficial.zip",
       "download": "https://sourceforge.net/projects/fogos-random/files/EvolutionX-16.0-20260128-fogos-11.6-Unofficial.zip/download",
-      "timestamp": 1769585644,
-      "md5": "555d0a8f8c4e86bae52bcec4978c1a18",
-      "sha256": "8bb2c09893b845c501e94cca67be4a282344e186cc878a36f9f1e1fa5e7449a4",
-      "size": 2870044216,
+      "timestamp": 1769598801,
+      "md5": "6634e5548dd9d29afcc09ae5f9c69c29",
+      "sha256": "a33091dbace5f83aeb6c9fb77b8fb071a9ba8789f77f1b086d339039383840bf",
+      "size": 2870043520,
       "version": "11.6",
       "buildtype": "user",
       "forum": "",
@@ -22,4 +22,3 @@
     }
   ]
 }
-
