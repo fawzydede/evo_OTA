@@ -1,9 +1,3 @@
 === 28/01/2026 ===
 * Source upstream
-- Sidebar
-- Vending Spoofing
-- Dropped Edge Light
-- more...
-
-*Device
-- Added OTA Support
+* Added OTA Support
