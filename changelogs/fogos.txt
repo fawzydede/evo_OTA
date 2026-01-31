@@ -1,3 +1,11 @@
+=== 31/01/2026 ===
+* Source upstream
++ overlay: reduces some more blur radius
++ prop: blur uses EXPENSIVE RENDERING
++ powerhint: tweaked powerhint to improve overal smoothness (expects feedback. let's see if there's any battery drain complain)
++ kernel: spoof localversion to be -qgki for netmgrd
++ kernel: shipped with Sukisu-Ultra (https://github.com/SukiSU-Ultra/SukiSU-Ultra/releases/download/v4.1.1/SukiSU_v4.1.1_40496-release.apk)
+
 === 28/01/2026 ===
 * Source upstream
 * Added OTA Support
