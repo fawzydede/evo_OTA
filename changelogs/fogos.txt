@@ -1,7 +1,3 @@
-=== 01/02/ 2026 ===
-powerhint hotfix: flash this module in sukisu app https://sourceforge.net/projects/fogos-random/files/Powerhint-hotfix.zip/download
-don't forget to install metamodule first to allow systemless modification
-
 === 31/01/2026 ===
 * Source upstream
 + overlay: reduces some more blur radius
