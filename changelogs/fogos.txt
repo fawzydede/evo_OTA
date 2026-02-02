@@ -1,3 +1,9 @@
+=== 02/02/2026 ===
+* Source upstream
++ minor fixes
++ welcome back safetyhub
++ added some more optimization props
+
 === 31/01/2026 ===
 * Source upstream
 + overlay: reduces some more blur radius
