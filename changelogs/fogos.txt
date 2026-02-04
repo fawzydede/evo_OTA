@@ -1,3 +1,10 @@
+=== 04/02/2026 ===
+* Source upstream
+\_ Evolution X bump verion 11.6.1
+\_ February security patch
++ Switched to Lunaris Dolby
++ Fixed unadjustable volume on voip call
+
 === 02/02/2026 ===
 * Source upstream
 + minor fixes
