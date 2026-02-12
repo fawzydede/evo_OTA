@@ -1,31 +1,31 @@
-=== 08/02/2026 ===
-* Source upstream
-\_ Edge light is there but broken atm
-+ tuned powerhint for more battery friendly
-+ enable scroll optimization
-+ disable high transition
+=== 13/02/2026 ===
+This is Android 16 QPR2 with February 2026 security patches
 
-=== 04/02/2026 ===
-* Source upstream
-\_ Evolution X bump verion 11.6.1
-\_ February security patch
-+ Switched to Lunaris Dolby
-+ Fixed unadjustable volume on voip call
+Notes:
+==============================
+- ROM is EROFS (Extended Read Only File System)
+- You can use regular TWRP for first time flash (Flash ROM.zip - reboot recovery - factory reset - reboot system)
+- Updating: directly update from Settings -> System -> System Update
 
-=== 02/02/2026 ===
-* Source upstream
-+ minor fixes
-+ welcome back safetyhub
-+ added some more optimization props
+Device changes:
+==============================
+Kernel: Switch to ReSUKISU - It has more modules compability (download ReSUKISU manager: https://t.me/ReSukiSU/4)
+thermal: slighly raised throttle control on thermal-engine-fogos-game-perf.conf (+8°C)
+powerhint: reverted to stock for now
 
-=== 31/01/2026 ===
-* Source upstream
-+ overlay: reduces some more blur radius
-+ prop: blur uses EXPENSIVE RENDERING
-+ powerhint: tweaked powerhint to improve overal smoothness (expects feedback. let's see if there's any battery drain complains)
-+ kernel: spoof localversion to be -qgki for netmgrd
-+ kernel: shipped with Sukisu-Ultra (https://github.com/SukiSU-Ultra/SukiSU-Ultra/releases/download/v4.1.1/SukiSU_v4.1.1_40496-release.apk)
-
-=== 28/01/2026 ===
-* Source upstream
-* Added OTA Support
+Notable ROM changes:
+==============================
+SystemUI: Fix edge light, media art, pulse on ambient display, now playing
+Evolver: Show lock screen wallpaper on Ambient
+Evolver: Add Flashlight blink on incoming calls
+Evolver: Bring back some power menu customization
+Evolver: Statusbar clock background chip styles
+Evolver: Fix haptic options missing in QS category
+Settings: VolumeDialog: Add toggle for haptic feedback
+SystemUI: Fix wifi tile showing mobile data carrier name
+SystemUI: Move privacy indicator switches to statusbar tuner
+base: Use EFFECT_DOUBLE_CLICK for camera launch feedback
+keybox: add real vbmeta digest
+services: Fixing per-app volume ux
+soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()
+soong: Add support for vendor tag with client package name to select
