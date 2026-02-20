@@ -1,4 +1,4 @@
-=== 13/02/2026 ===
+=== 20/02/2026 ===
 This is Android 16 QPR2 with February 2026 security patches
 
 Notes:
@@ -9,23 +9,43 @@ Notes:
 
 Device changes:
 ==============================
-Kernel: Switch to ReSUKISU - It has more modules compability (download ReSUKISU manager: https://t.me/ReSukiSU/4)
-thermal: slighly raised throttle control on thermal-engine-fogos-game-perf.conf (+8°C)
-powerhint: reverted to stock for now
+Switch to Lineage Power HAL
 
 Notable ROM changes:
 ==============================
-SystemUI: Fix edge light, media art, pulse on ambient display, now playing
-Evolver: Show lock screen wallpaper on Ambient
-Evolver: Add Flashlight blink on incoming calls
-Evolver: Bring back some power menu customization
-Evolver: Statusbar clock background chip styles
+Disable schedstats
+Evolver: Add three fingers swipe actions
+Evolver: Extend QS Header Image to support animated GIF/WEBP
 Evolver: Fix haptic options missing in QS category
+Evolver: Introduce shake gesture
+Fix reading build props on devices with legacy partition layout
+HWComposer: Silence duplicate VSYNC logspam
+PermissionController: Add missing permission groups
+SystemUI: Add charging bolt indicator for text-only battery style
 Settings: VolumeDialog: Add toggle for haptic feedback
+SystemUI: Fix QS customizer corner radius
+SystemUI: Fix edge light, media art, pulse on ambient display, now playing
+SystemUI: Fix imageloader spam in BrightnessSliderViewModel
 SystemUI: Fix wifi tile showing mobile data carrier name
 SystemUI: Move privacy indicator switches to statusbar tuner
+SystemUI: Move right logo in statusbar to extreme right
+SystemUI: Start QS header animation only on expanding
+SystemUI: Use privacy_chip_background for charger indicator bg
+Update CE storage handling in StorageManagerService (Fixes Android/data folder creation on some apps dues to race condition)
+Use proper value for default multi-media focus
+VolumeHaptics: Tune the primitives0
+audio: add message MSG_L_BT_ACTIVE_DEVICE_CHANGE_EXT to messageMutesMusic logic
 base: Use EFFECT_DOUBLE_CLICK for camera launch feedback
+config: Update pihooks default values
 keybox: add real vbmeta digest
+recovery: Add support for AIDL bootcontrol HAL in slot switch option
+recovery: Do not print switch slot info without actually switching a slot
+recovery: add support for changing slots
+recovery: rewrite slot switch logic using bootcontrol APIs
 services: Fixing per-app volume ux
 soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS} to select()
 soong: Add support for vendor tag with client package name to select
+surfaceflinger: Ignore when getLuts is unsupported
+surfaceflinger: Lower DisplayModeController log verbosity
+surfaceflinger: allow overriding FrameRateCategoryRateHigh
+surfaceflinger: allow overriding min supported frame rate
