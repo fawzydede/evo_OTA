@@ -10,7 +10,7 @@ Notes:
 
 Device changes:
 ==============================
-Switch back to QTI Power HAL | libperfmgr makes little cluster governor stuck on performance (I missed something and idk what. still figuring it out)
+Switch back to QTI Power HAL | we'll be back to libperfmgr next update
 
 Notable ROM changes:
 ==============================
