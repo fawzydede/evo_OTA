@@ -1,19 +1,27 @@
-=== 20/02/2026 ===
+=== 28/02/2026 ===
 This is Android 16 QPR2 with February 2026 security patches
 
 Notes:
 ==============================
+- LineageOS-based tree. Signed build.
 - ROM is EROFS (Extended Read Only File System)
-- You can use regular TWRP for first time flash (Flash ROM.zip - reboot recovery - factory reset - reboot system)
-- Updating: directly update from Settings -> System -> System Update
-- Mirror download: https://gofile.io/d/83b73C
+- You can use regular TWRP for first time flash (Flash ROM.zip -> reboot recovery -> factory reset -> reboot system)
+- Updating: Settings -> System -> System Update (you can also do local update no need to enter recovery for sideload)
+- ROM Shipped with ReSukiSU download manager here: https://t.me/ReSukiSU/4
 
 Device changes:
 ==============================
-Switch back to QTI Power HAL | we'll be back to libperfmgr next update
+- Switched to Lineage power-libperfmgr
+!CLEAN FLASH RECOMMENDED!
+#Do clean flash if you facing stability issue or cpu min_freq got stuck on certain high frequency
 
 Notable ROM changes:
 ==============================
+Evolver: Add gradients customization
+SystemUI: Add custom gradient start/end color support
+SystemUI: Add volume slider gradient customization
+SystemUI: Add QS brightness slider gradient customization
+SystemUI: Add QS tile gradient customization
 Allow complex resource types to follow references
 Evolver: Add separate preference for statusbar clock bg chip
 Evolver: Add separate preference for statusbar logo
