@@ -1,4 +1,4 @@
-=== 28/02/2026 ===
+=== 01/03/2026 ===
 This is Android 16 QPR2 with February 2026 security patches
 
 Notes:
@@ -11,9 +11,7 @@ Notes:
 
 Device changes:
 ==============================
-- Switched to Lineage power-libperfmgr
-!CLEAN FLASH RECOMMENDED!
-#Do clean flash if you facing stability issue or cpu min_freq got stuck on certain high frequency
+- Fixed Deep sleep issue related to DozePulse:WakeLock after 28/02/2026 build
 
 Notable ROM changes:
 ==============================
