@@ -1,5 +1,5 @@
-=== 01/03/2026 ===
-This is Android 16 QPR2 with February 2026 security patches
+=== 03/03/2026 ===
+This is Android 16 QPR2 with March 2026 security patches
 
 Notes:
 ==============================
@@ -11,10 +11,16 @@ Notes:
 
 Device changes:
 ==============================
-- Fixed Deep sleep issue related to DozePulse:WakeLock after 28/02/2026 build
+- Updated blobs to fogos_g V1UGS35H.75-14-3-6
+- Fixed DT2W won't be disabled
 
 Notable ROM changes:
 ==============================
+March security patch
+version: Uprev to 11.6.2
+Evolver: Add ongoing action chip implementation
+SystemUI: Improve Ongoing Chip interactions
+SystemUI: Fix notification flicker with transluency enabled
 Evolver: Add gradients customization
 SystemUI: Add custom gradient start/end color support
 SystemUI: Add volume slider gradient customization
@@ -30,15 +36,3 @@ KeyGestureController: Fallback to fullscreen screenshot on null data
 PersistentDataBlockService: Deactivate FRP on Vanilla builds
 Settings: Add missing icon for Adaptive connectivity
 Settings: Add support for daily and weekly data usage cycles
-Settings: BackgroundCheckSummary: use InstrumentedFragment to avoid NPE
-Settings: Fix custom Private DNS hostname being overwritten
-Settings: Reset mobile data always on developer setting correctly
-Settings: SoftAp: add support for setting shutdown timeout
-Settings: fix broken mobile network reset button
-SystemUI: Fix edge light, media art, pulse, charging, now playing on ambient display
-SystemUI: Hide nowplaying view when bouncer is showing
-SystemUI: Remove Duplicate Ripple Effect for WiredCharging
-SystemUI: logo: Re-align amogus icon
-base: Fix crash caused by back gesture on popup view
-services: Clean up unused settings for three finger swipe
-services: Switch to binder IPC for three finger swipe
