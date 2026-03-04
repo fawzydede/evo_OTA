@@ -1,4 +1,4 @@
-=== 03/03/2026 ===
+=== 05/03/2026 ===
 This is Android 16 QPR2 with March 2026 security patches
 
 Notes:
@@ -11,28 +11,23 @@ Notes:
 
 Device changes:
 ==============================
-- Updated blobs to fogos_g V1UGS35H.75-14-3-6
-- Fixed DT2W won't be disabled
+- LOW_POWER adjustment: don't disable DT2W and increase CPUBigMax cap to prevent wake up delay on battery saver mode
 
 Notable ROM changes:
 ==============================
-March security patch
-version: Uprev to 11.6.2
-Evolver: Add ongoing action chip implementation
-SystemUI: Improve Ongoing Chip interactions
-SystemUI: Fix notification flicker with transluency enabled
+Avoid NPE in CriticalEventLog.saveLogToFileNow()
 Evolver: Add gradients customization
-SystemUI: Add custom gradient start/end color support
-SystemUI: Add volume slider gradient customization
-SystemUI: Add QS brightness slider gradient customization
-SystemUI: Add QS tile gradient customization
-Allow complex resource types to follow references
-Evolver: Add separate preference for statusbar clock bg chip
-Evolver: Add separate preference for statusbar logo
-Evolver: Bring back QS footer icon visibilities toggles
-Evolver: Introduce charging effects 
-HintManagerService: Generate dummy mSupportInfo for non power AIDL devices
-KeyGestureController: Fallback to fullscreen screenshot on null data
-PersistentDataBlockService: Deactivate FRP on Vanilla builds
-Settings: Add missing icon for Adaptive connectivity
-Settings: Add support for daily and weekly data usage cycles
+Evolver: Add ongoing action chip implementation
+Evolver: Bring back status bar clock position preference
+Evolver: Convert background clock chip fragment to preference dialog
+Evolver: Convert lockscreen clock font picker to preference dialog
+Evolver: Convert logo fragment to preference dialog
+Evolver: Convert system font picker to preference dialog
+Evolver: Disable gradient start/end colors for auto mode
+Evolver: Implement option to prevent OneSearchAimActivity from being disabled
+Evolver: Set height for custom selector preferences
+Merge March 2026 security patches
+PixelPropsUtils: Update fingerprints to March 2026 release
+Settings: Change UserBackupSettingsActivity to extend FragmentActivity
+Settings: Set launch mode to singleTop for UserBackupSettingsActivity
+SettingsTheme: Correctly theming AlertDialog with M3 colors
