@@ -11,10 +11,11 @@ Notes:
 
 Device changes:
 ==============================
-- LOW_POWER adjustment: don't disable DT2W and increase CPUBigMax cap to prevent wake up delay on battery saver mode
+-
 
 Notable ROM changes:
 ==============================
+SystemUI: Fixed crash on notifications longpress
 Avoid NPE in CriticalEventLog.saveLogToFileNow()
 Evolver: Add gradients customization
 Evolver: Add ongoing action chip implementation
