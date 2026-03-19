@@ -1,5 +1,10 @@
-=== 05/03/2026 ===
+=== 20/03/2026 ===
 This is Android 16 QPR2 with March 2026 security patches
+
+!WARNING!
+### THIS ROM IS BUILT UNDER USER PERSONAL CONCERN AS IT IS PROHIBITED BY THE DEVICE LEAD DEVS REGARDING THE ROM DEVS BEHAVIOR
+### DO NOT MENTION OR DISCUSS THIS ROM UNDER GLOBAL TELEGRAM GROUP!
+### DISCUSS THIS ROM ONLY IN https://t.me/fogos_random
 
 Notes:
 ==============================
@@ -11,24 +16,30 @@ Notes:
 
 Device changes:
 ==============================
--
+- powerhint fixup for G34 variant which unable to boot
 
 Notable ROM changes:
 ==============================
-SystemUI: Fixed crash on notifications longpress
-Avoid NPE in CriticalEventLog.saveLogToFileNow()
-Evolver: Add gradients customization
-Evolver: Add ongoing action chip implementation
-Evolver: Bring back status bar clock position preference
-Evolver: Convert background clock chip fragment to preference dialog
-Evolver: Convert lockscreen clock font picker to preference dialog
-Evolver: Convert logo fragment to preference dialog
-Evolver: Convert system font picker to preference dialog
-Evolver: Disable gradient start/end colors for auto mode
-Evolver: Implement option to prevent OneSearchAimActivity from being disabled
-Evolver: Set height for custom selector preferences
-Merge March 2026 security patches
-PixelPropsUtils: Update fingerprints to March 2026 release
-Settings: Change UserBackupSettingsActivity to extend FragmentActivity
-Settings: Set launch mode to singleTop for UserBackupSettingsActivity
-SettingsTheme: Correctly theming AlertDialog with M3 colors
+Evolver: Add option for PairIP license check blocker
+Update EGL context type from EGLDisplay to EGLContext
+system_server LW_EVENT_SYNC_NATIVE_CRASH in InputDispatcher
+wifi: Clear user temporarily disabled list on forget connected network
+ColumbusService: Make Vietnamese translations more natural
+Evolver: Update team members
+Settings: hide ambient from search
+Settings: location: Move mock location app picker to Location settings
+Settings: location: greyed-out mock override toggle until app is selected
+Skip updating value added A2DP offload codecs to MM audio over AIDL
+SystemUI: Do not collapse when interacting with seekbar
+SystemUI: Do not invalidate ongoing chip bg color often
+SystemUI: Fix NPE in ongoing chip icon rasterization
+SystemUI: Fix ringer tile rendering for vibrator support and DND state
+SystemUI: Improve music chip popup ui
+SystemUI: Periodically re-evaluate to catch stale sessions
+SystemUI: Refactor for album art, icon and playback
+SystemUI: Smoother seekbar for ongoing chip popup ui
+SystemUI: Update chip max width
+Update EGL context type from EGLDisplay to EGLContext
+fixup! audio: Allow opting out of speaker_layout_channel_mask field
+system_server LW_EVENT_SYNC_NATIVE_CRASH in InputDispatcher
+wifi: Clear user temporarily disabled list on forget connected network
