@@ -1,4 +1,4 @@
-=== 20/03/2026 ===
+=== 21/03/2026 ===
 This is Android 16 QPR2 with March 2026 security patches
 
 !WARNING!
@@ -16,7 +16,7 @@ Notes:
 
 Device changes:
 ==============================
-- powerhint fixup for G34 variant which unable to boot
+- fixed camera recording and slow motion
 
 Notable ROM changes:
 ==============================
