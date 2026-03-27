@@ -12,7 +12,18 @@ Notes:
 - ROM is EROFS (Extended Read Only File System)
 - You can use regular TWRP for first time flash (Flash ROM.zip -> reboot recovery -> factory reset -> reboot system)
 - Updating: Settings -> System -> System Update (you can also do local update no need to enter recovery for sideload)
-- ROM Shipped with ReSukiSU download manager here: https://t.me/ReSukiSU/4
+- ROM Shipped with ReSukiSU. download manager here: https://t.me/ReSukiSU/4
+
+Credits:
+==============================
+- MikeNG
+- TheMuppets
+- Vishal
+- Herobuxx
+- DodyIrawan
+- Byben
+- All other authors of my cherry-picks
+- Meow Projekt for the Dolby
 
 Device changes:
 ==============================
