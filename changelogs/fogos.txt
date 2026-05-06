@@ -1,5 +1,5 @@
-=== 26/04/2026 ===
-This is Android 16 QPR2 with April 2026 security patches
+=== 06/05/2026 ===
+This is Android 16 QPR2 with May 2026 security patches
 
 !WARNING!
 ### THIS ROM IS BUILT UNDER USER PERSONAL CONCERN AS IT IS PROHIBITED BY THE DEVICE LEAD DEVS REGARDING THE ROM DEVS BEHAVIOR
@@ -8,7 +8,7 @@ This is Android 16 QPR2 with April 2026 security patches
 
 Notes:
 ==============================
-- LineageOS-based tree. Signed build.
+- LineageOS-based tree (WakacawProject refined). Signed build.
 - ROM is EROFS (Extended Read Only File System)
 - You can use regular TWRP for first time flash (Flash ROM.zip -> reboot recovery -> factory reset -> reboot system)
 - Updating: Settings -> System -> System Update (you can also do local update no need to enter recovery for sideload)
@@ -27,132 +27,28 @@ Credits:
 
 Device changes:
 ==============================
-#OTA update should be fine but clean flash is recommended#
-- Switched to WkcW Project tree
-- Updated blobs to V1UGS35H.75-14-3-7
+-
 
 Notable ROM changes:
 ==============================
-Evolver: Consolidate per-app and game spoofing UI
-Evolver: TrickyStore: Replace app picker with per-app mode bottom sheet
-Evolver: Consolidate app hide settings into single Compose fragment
-Evolver: Drop EvolverTheme
-SatelliteController: Make NTN nullness explicit
-SatelliteController: Harden carrier roaming NTN notifications
-services: Cache unsupported N1 mode responses
-services: Sanitize invalid physical cell IDs from RIL
-services: Avoid exception-driven invalid subId user handles
-Video wallpaper selector [2/2]
-Settings: Introduce automated Sleep Mode [2/2]
-Settings: Fix NPE in UserBackupSettingsActivity due to missing setContentView
-Set launch mode to singleTop for UserBackupSettingsActivity
-Change UserBackupSettingsActivity to extend FragmentActivity
-ProfileSelectFragment: Refactor getTabId to getStartingTabIndex
-wifi: Fix reachability check in WifiDppQrCodeScannerFragment [qr-2/2]
-Settings: Observe auto brightness mode changes
-Settings: Introduce navbar pill auto-hide [2/2]
-Settings: Add torch toggle for double tap power gesture [2/2]
-Settings: Implement device idle manager [2/2]
-Settings: Add toggle for face down detection
-Settings: Add config to display Now Playing
-Settings: hide ambient from search
-location: greyed-out mock override toggle until app is selected
-location: Move mock location app picker to Location settings
-Settings: Fix NPE in FingerprintSettings (UDFPS screen-off toggle)
-Settings: BackgroundCheckSummary: use InstrumentedFragment to avoid NPE
-Settings: Add Glide library
-Settings: Add missing icon for Adaptive connectivity
-Settings: Fix custom Private DNS hostname being overwritten
-Settings: Add support for daily and weekly data usage cycles [2/2]
-Settings: fix broken mobile network reset button
-Settings: SoftAp: add support for setting shutdown timeout
-Revert "[Catalyst] Migrate Wi-Fi hotspot auto-off switch preference"
-fixup! RU: Google Import translations
-Settings: Reset mobile data always on developer setting correctly
-Settings: Set proper initial value for multi media focus
-Settings: Adding multi-media focus support [2/2]
-Settings: VolumeDialog: Add toggle for haptic feedback [2/2]
-Settings: Hide back haptics setting if not supported
-Settings: Add icon for WEP in wifi network settings
-Settings: Add icon for emergency broadcasts
-AppVolumeSlice: Allow querying icon of apps installed by any user
-Settings: support per-app volume [3/3]
-Settings: Adapt Google battery saver changes to A16 QPR2
-Settings: Implement reverse-engineered battery saver page
-Settings: Update overlay package for pure black theme
-Settings: Add icon for 'WiFi timeout'
-Wi-Fi timeout feature
-Bluetooth timeout feature
-Settings: Remove flag check for blur toggle
-Settings: fingerprint: Skip creating footer during enrollment on UDFPS devices
-Revert "Settings: Only show gesture navigation if device has a software nav bar"
-fixup! Settings: doze brightness customization
-Settings: doze brightness customization
-Fixup updater crash on WiFI only devices
-Remove the Automatic ota check option but be sure it's disabled
-Settings: Force disable top level support preference
-fixup! Settings: Skip auth for USB func ctrl when unlocked in the last 60s
-Settings: fix npe when opening WiFi dialog for networks without WifiConfiguration
-treat IdentityCheck promo+notification already shown by default
-disable redundant indexing of WidgetsOnLockscreenFragment contents
-Settings: Enable glanceble hub for all
-Settings: Implement localepicker from SettingsGoogle
-Settings: Use default letter spacing for category titles
-BatterySaverScheduleSeekBarController: Allow a wider control range
-Settings: Add Device codename to Firmware version window
-Settings: Fix duplicated baseband string on all devices.
-BasebandVersionPreferenceController: Trim baseband if needed
-Settings: Add config to show/hide vendor security patch level
-Settings: Avoid enforcing weird backgrounds
-Settings: Fix up panel theme and layout
-Revert "Settings: Move Google Setting way down"
-Settings: Allow choosing a custom vibration pattern [3/3]
-Settings: Add vibration patterns from OOS [3/3]
-Settings: Hide headsup toggle
-Optional haptic feedback on back gesture [2/2]
-Allow to hide arrow for back gesture [2/2]
-Settings: Change back gesture height intervals
-Allow changing back gesture height [2/2]
-Settings: Fix incorrect sort
-Settings: Import updated lottie animations from bp41
-Settings: Pull navigation mode settings out
-Settings: Add missing illustration for camera gesture
-Settings: Use Theme.AlertDialog.SettingsLib for AlertDialog theme
-reorder spinner entries on the battery optimization app list screen
-DevelopmentSettings: Hide OEM unlock by default
-Settings: Remove summary placeholder from "System updates" pref
-Settings: allow disable of screenshot shutter sound [2/2]
-Settings: Introduce `Force LTE_CA` override on per subscription basis [3/3]
-Settings: Enable clone apps
-Revert "Settings: Bring in the new icon"
-Settings: Allow dismissing suggestions
-location: Allow to override Mock Location restriction [2/2]
-network: Link to custom eSIM settings
-Settings: Allow disabling refresh rate lowering in battery saver
-Refresh rate: Add display refresh rate illustration
-Settings: Implement RefreshRateManager [SQUASHED] [2/2]
-Settings: explicitly enable cloned apps
-Settings: Enable "install available apps"
-Settings: Add config check for screen off UDFPS
-DevelopmentSettings: Remove system update and other prefs
-DevelopmentSettings: Disable automatic updates
-Settings: Ambient Music Ticker - Allow to pulse on new tracks [2/2]
-config: Spoof BuildFingerprint as Pixel Beta
-LongScreenSettings: force stop app when adding/removing to long screen app list
-fix long screen layout issues
-Extend Long screen feature to all apps
-removing lineage stats
-LineageParts: Do not restore keydisabler state at boot
-DisplayRotation: fix lockscreen rotation hidden on portrait
-[TMP] Partially revert "Disable more unused components"
-[TMP] LineageParts: Comment out some items added in Evolver
-LineageParts: Add more device key actions [3/3]
-Disable unused components
-Remove unused Network Traffic fragment
-Kill redundant search fun party
-Make trust interface less boring
-stats: Mod version switched to Evolution X version
-Ship as Evolution X based on LOS
-hardcoding custom rom hide app white list
-common: clean up /data/adb crufts
-removing tests to ease of sepolicy addition maintenance
+Evolver: Add animation styles for QS tile toggle
+Evolver: Add edge light preview
+Evolver: Add particle and waveform renderer styles
+Evolver: Add subtle haptics on bass spikes
+Evolver: Allow configure bass haptics playback for pulse
+Evolver: Consolidate, clean up, and reorganize our strings
+Evolver: Misc: Overhaul app picker screens and consolidate shared UI
+Evolver: Misc cleanup and UI consistency fixes
+Evolver: PlayIntegrityFix: overhaul config handling, auto-fetch, and import guards
+Evolver: Spoofing: Restructure screen layout and clarify strings
+Evolver: TrickyStore: Add keybox revocation status check
+Merge May 2026 security patches
+Settings: Extract OEM/device name formatting into shared utility
+Settings: Fix capitalization, grammar, and wording in our strings
+Settings: Hardware info: Rework as unified card UI with OTA-backed data
+Update translations
+extras: Drop Evo navbar overlay
+pixel-style: Do not override qualified networks service
+pixel-style: Update overlays from stallion CP1A.260405.005
+release: Enable show_icon_in_empty_shade
+version: Export EVO_BUILD_TYPE as ro.evolution.build.type system property
