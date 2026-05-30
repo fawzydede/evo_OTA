@@ -29,9 +29,9 @@ Credits:
 
 Device changes:
 ==============================
-- Meged latest kernel changes from LineageOS/lineage-23.2
+- Merged latest kernel changes from LineageOS/lineage-23.2
 - powerhint: tune camera hints
-- audio: [TEST] lock VoIP mixPorts to 48kHz to eliminate crackling during VoiP calls (report if this break other things✌️)
+- audio: [TEST] lock VoIP mixPorts to 48kHz to eliminate crackling when notifications arrives during voip calls (report if this break other things✌️)
 
 Notable ROM changes:
 ==============================
