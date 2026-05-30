@@ -1,4 +1,4 @@
-=== 17/05/2026 ===
+=== 30/05/2026 ===
 This is Android 16 QPR2 with May 2026 security patches
 
 !WARNING!
@@ -22,30 +22,17 @@ Credits:
 - Herobuxx
 - DodyIrawan
 - Byben
+- AnandSuresh02
+- Vivekachooz
 - All other authors of my cherry-picks
 - Meow Projekt for the Dolby
 
 Device changes:
 ==============================
-- Kernel upstream
-- Misc. improvement
+- Meged latest kernel changes from LineageOS/lineage-23.2
+- powerhint: tune camera hints
+- audio: [TEST] lock VoIP mixPorts to 48kHz to eliminate crackling during VoiP calls (report if this break other things✌️)
 
 Notable ROM changes:
 ==============================
-Evolver: Allow toggling keyguard behind scrim visibility [2/2]
-OmniJaws: Add Pirate weather provider to compose UI
-OmniJaws: Update RU translations
-OmniJaws: Add Pirate weather provider
-OmniJaws: Fix weather icon pack updates
-OmniJaws: Add themed outline icon resources
-OmniJaws: Hide icon theme settings for non-themeable packs
-OmniJaws: Convert Google New icons to themed resources
-OmniJaws: Add app icon theme setting
-OmniJaws: Resolve app weather icons through icon provider
-OmniJaws: Add widget icon theme handling
-OmniJaws: Convert Nothing icons to themed resources
-OmniJaws: Add theme-aware icon provider
-OmniJaws: Add weather icon pack model
-OmniJaws: Add dark mode for Nothing Icon Pack
-OmniJaws: Add front-end
-WeatherProvider: Update import path for OmniJawsClient
+Source changes is in Evolver -> About
