@@ -1,5 +1,5 @@
-=== 30/05/2026 ===
-This is Android 16 QPR2 with May 2026 security patches
+=== 04/06/2026 ===
+This is Android 16 QPR2 with June 2026 security patches
 
 !WARNING!
 ### THIS ROM IS BUILT UNDER USER PERSONAL CONCERN AS IT IS PROHIBITED BY THE DEVICE LEAD DEVS REGARDING THE ROM DEVS BEHAVIOR
@@ -8,10 +8,10 @@ This is Android 16 QPR2 with May 2026 security patches
 
 Notes:
 ==============================
-- LineageOS-based tree (WakacawProject refined). Signed build.
+- LineageOS-based tree. User signed build.
 - ROM is EROFS (Extended Read Only File System)
 - You can use regular TWRP for first time flash (Flash ROM.zip -> reboot recovery -> factory reset -> reboot system)
-- Updating: Settings -> System -> System Update (you can also do local update no need to enter recovery for sideload)
+- Updating: Settings -> System -> System Update.
 - ROM Shipped with ReSukiSU. download manager here: https://t.me/ReSukiSU/4
 
 Credits:
@@ -29,10 +29,39 @@ Credits:
 
 Device changes:
 ==============================
-- Merged latest kernel changes from LineageOS/lineage-23.2
-- powerhint: tune camera hints
-- audio: [TEST] lock VoIP mixPorts to 48kHz to eliminate crackling when notifications arrives during voip calls (report if this break other things✌️)
+- Updated blobs from fogos_g V1UGS35H.75-14-3-8
+- kernel: set CONFIG_CPU_FREQ_DEFAULT_GOV_SCHEDUTIL=y
 
 Notable ROM changes:
 ==============================
-Source changes is in Evolver -> About
+extras: sdk: adding ax_blur libs
+extras: sdk: compose: improving settings flow | adding commonized typography
+ThemeStore: integrating axion sdk components
+release: enabling enable_create_any_bubble flag
+version: Uprev to 11.8
+Settings: fixing platform apps storage info
+fixup! fixing dalvik|art|usap tuning regressions
+[ax_perf] low latency frame drop integrate
+[TMP] manifest: Track our forks for 2026-06 ASB
+manifest: Initialize for Evolution X 11.8
+Telecomm: Provide required permissions for Telephony
+Ringer: There should really not be an observer here
+Ringer: Rewrite flashlight blink on incoming calls
+Telecomm: Add DND & Rate settings to flash on call [2/3]
+Telecomm: Allow to flash on call only when entirely silent [2/3]
+Telecomm: Add Flashlight blink on incoming calls [2/3]
+Telecomm: Update vibration patterns
+Telecomm: Add a null check to custom ring vibration
+Telecomm: Allow choosing a custom vibration pattern [2/3]
+Telecomm: Add vibration patterns from OOS [2/3]
+Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
+Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
+Telcomm: Enable support for blocking callers not in contacts
+CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
+Telecomm: More improvements for incall vibrations
+Telecomm: Get rid of deprecation in incall vibrations
+Incall vibration options [2/3]
+Add back increasing ring feature (1/2).
+Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+Telephony: Migrate MainSwitchBar and Switch to Material3
+Telephony: Apply Material You to exposed settings
