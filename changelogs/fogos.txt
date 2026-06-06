@@ -1,4 +1,4 @@
-=== 04/06/2026 ===
+=== 06/06/2026 ===
 This is Android 16 QPR2 with June 2026 security patches
 
 !WARNING!
@@ -29,39 +29,12 @@ Credits:
 
 Device changes:
 ==============================
-- Updated blobs from fogos_g V1UGS35H.75-14-3-8
-- kernel: set CONFIG_CPU_FREQ_DEFAULT_GOV_SCHEDUTIL=y
+- Fixed mic delay during VoIP calls (Thanks to sir Byben)
+- Fixed widevine certification issue (Thanks to sir Byben)
 
-Notable ROM changes:
+Notable ROM changes 06/05:
 ==============================
-extras: sdk: adding ax_blur libs
-extras: sdk: compose: improving settings flow | adding commonized typography
-ThemeStore: integrating axion sdk components
-release: enabling enable_create_any_bubble flag
-version: Uprev to 11.8
-Settings: fixing platform apps storage info
-fixup! fixing dalvik|art|usap tuning regressions
-[ax_perf] low latency frame drop integrate
-[TMP] manifest: Track our forks for 2026-06 ASB
-manifest: Initialize for Evolution X 11.8
-Telecomm: Provide required permissions for Telephony
-Ringer: There should really not be an observer here
-Ringer: Rewrite flashlight blink on incoming calls
-Telecomm: Add DND & Rate settings to flash on call [2/3]
-Telecomm: Allow to flash on call only when entirely silent [2/3]
-Telecomm: Add Flashlight blink on incoming calls [2/3]
-Telecomm: Update vibration patterns
-Telecomm: Add a null check to custom ring vibration
-Telecomm: Allow choosing a custom vibration pattern [2/3]
-Telecomm: Add vibration patterns from OOS [2/3]
-Telecomm: Fix InCallController.getInCallServiceComponents() in secondary users
-Telecomm: Fix createLaunchEmergencyDialerIntent() crash in non-main users
-Telcomm: Enable support for blocking callers not in contacts
-CallAudioRouteController: Add NPE check to avoid crash on invalid audio route
-Telecomm: More improvements for incall vibrations
-Telecomm: Get rid of deprecation in incall vibrations
-Incall vibration options [2/3]
-Add back increasing ring feature (1/2).
-Telecomm: Phone ringtone setting for Multi SIM device [3/3]
-Telephony: Migrate MainSwitchBar and Switch to Material3
-Telephony: Apply Material You to exposed settings
+config: Spoof BuildFingerprint as Pixel Canary
+overlay: avoiding IME logspam during DPAD events
+Settings: Use color accents for biometrics enroll style
+Settings: gestures: gate navbar button order on Launcher3 as default home
