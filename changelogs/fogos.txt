@@ -1,4 +1,4 @@
-=== 06/06/2026 ===
+=== 14/06/2026 ===
 This is Android 16 QPR2 with June 2026 security patches
 
 !WARNING!
@@ -29,12 +29,12 @@ Credits:
 
 Device changes:
 ==============================
-- Fixed mic delay during VoIP calls (Thanks to sir Byben)
-- Fixed widevine certification issue (Thanks to sir Byben)
+- Completely fixed VoIP stuttering when notification arrives
 
-Notable ROM changes 06/05:
+Notable ROM changes:
 ==============================
-config: Spoof BuildFingerprint as Pixel Canary
-overlay: avoiding IME logspam during DPAD events
-Settings: Use color accents for biometrics enroll style
-Settings: gestures: gate navbar button order on Launcher3 as default home
+Evolver: TrickyStore: Fix keybox revocation check always returning VALID
+Increase BINDER_VM_SIZE from 1MB to 4MB
+CameraService: Add OnePlus camera extension support for zoom
+Evolver: Extend volume slider modes
+Revert "release: disable new dozing keyguard states"
